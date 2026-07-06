@@ -1,6 +1,6 @@
-# Animal Photo ID
+# Find the Animal Species
 
-This repository contains a vision test for identifying animals from real wildlife photos.
+This repository contains a vision test where the job is simple: look at a wildlife photo and say which animal species it shows.
 
 The set uses 20 expert-verified wildlife images:
 - 10 species
