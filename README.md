@@ -1,4 +1,4 @@
-# Find the Animal Species
+# Identify the Animal
 
 This repository contains a vision test where the job is simple: look at a wildlife photo and say which animal species it shows.
 
