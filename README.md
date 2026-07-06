@@ -1,6 +1,6 @@
-# Wildlife Species ID from Camera Trap Photos
+# Serengeti Species Benchmark
 
-This repository contains a vision benchmark for identifying African wildlife species from real camera trap images.
+This repository contains a vision benchmark for identifying African wildlife species from real Serengeti camera-trap images.
 
 The task uses 20 expert-verified images from Snapshot Serengeti:
 - 10 species
@@ -18,7 +18,7 @@ Teams working on wildlife monitoring often process very large image volumes and 
 - cost per image
 - robustness on difficult shots
 
-This task is useful for comparing general-purpose vision models, multimodal agents, and custom pipelines on a practical classification workload.
+This benchmark is useful for comparing general-purpose vision models, multimodal agents, and custom pipelines on a practical classification workload.
 
 ## Species covered
 
@@ -51,7 +51,7 @@ The harder cases include more realistic failure modes such as:
 - lower visual clarity
 - confusion between visually similar species
 
-## Task format
+## Benchmark format
 
 Each case includes:
 - `inputs/<case_id>/question.txt`
@@ -108,7 +108,7 @@ If you are using a Trap-compatible runner, this repository already includes:
 
 ## What this benchmark is good for
 
-This benchmark is good for comparing:
+This benchmark is useful for comparing:
 - vision-language models
 - multimodal agents
 - OCR-free image classification pipelines
