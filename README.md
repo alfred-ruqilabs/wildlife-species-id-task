@@ -1,8 +1,8 @@
-# Serengeti Animal ID
+# Animal Photo ID
 
-This repository contains a vision test for identifying African wildlife from real Serengeti camera-trap images.
+This repository contains a vision test for identifying animals from real wildlife photos.
 
-The task uses 20 expert-verified images from Snapshot Serengeti:
+The set uses 20 expert-verified wildlife images:
 - 10 species
 - 2 images per species
 - 3 difficulty tiers: easy, medium, hard
