@@ -22,7 +22,7 @@ This is useful for comparing general-purpose vision models, multimodal agents, a
 
 ## Species covered
 
-The benchmark includes these 10 species:
+The set includes these 10 species:
 - buffalo
 - cheetah
 - elephant
@@ -98,15 +98,15 @@ A full run passes when accuracy is at least 80%.
    - `question.txt`
    - `document.jpg`
 3. Make your solution print a single species label.
-4. Run the task with your local evaluation harness.
-5. Submit your run to the leaderboard platform you are using.
+4. Run the set with your local evaluation harness.
+5. Submit your run to the platform you are using.
 
-If you are using a Trap-compatible runner, this repository already includes:
+This repository already includes:
 - `traptask.yaml`
 - `judge.py`
 - `grader.py`
 
-## What this benchmark is good for
+## What this is useful for
 
 This is useful for comparing:
 - vision-language models
@@ -121,10 +121,10 @@ It is especially useful when you want to know not just which system is best, but
 - Only 10 species are included.
 - There are no empty frames.
 - All cases are single-species images.
-- The benchmark is Serengeti-specific.
+- The data is Serengeti-specific.
 - It does not test behavior recognition.
 
-So this is a focused species-identification benchmark, not a full wildlife-monitoring benchmark.
+So this is a focused species-identification set, not a full wildlife-monitoring set.
 
 ## Data source and license
 
